@@ -1,4 +1,5 @@
 My Portfolio (A Capstone project)
+
 This is my personal portfolio website, showcasing my front-end development skills, projects, and experience. The website is built using React, Redux, TypeScript, SCSS, and tested with Jest/React Testing Library.
 
 Features
