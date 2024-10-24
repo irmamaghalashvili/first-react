@@ -1,62 +1,40 @@
-My Portfolio
-Welcome to my personal portfolio website! This project highlights my skills, experience, and projects in front-end development.
-About
-This portfolio showcases the projects I’ve worked on as a front-end developer, along with information about my skills, experience, and how to get in touch with me. The website is built using React, Redux, TypeScript, and SCSS to ensure scalability, maintainability, and modern design.
+My Portfolio (A Capstone project)
+This is my personal portfolio website, showcasing my front-end development skills, projects, and experience. The website is built using React, Redux, TypeScript, SCSS, and tested with Jest/React Testing Library.
 
-Prerequisites
-Ensure you have the following tools installed:
-
-Node.js (v14 or higher)
-npm (v6 or higher)
-Installation
+Features
+Responsive design
+Centralized state with Redux
+Unit tests for all pages
+Easy navigation with React Router
+Technologies Used
+React
+Redux
+TypeScript
+SCSS
+Jest/React Testing Library
+Node.js & npm
+Setup Instructions
 Clone the repository:
 
 bash
 Copy code
-git clone (https://github.com/irmamaghalashvili/first-react)
-Navigate to the project directory:
-
-bash
-Copy code
-cd portfolio
+git clone https://your-repo-url.git
 Install dependencies:
 
 bash
 Copy code
 npm install
-Usage
-To start the development server and view the website in your browser:
+Run the project:
 
 bash
 Copy code
 npm start
-The app will be running at http://localhost:3000.
-
-Build
-To create a production build of the project:
-
-bash
-Copy code
-npm run build
-This will create an optimized build of the portfolio, ready for deployment.
-
-Running Tests
-To run unit tests for the project:
+Run tests:
 
 bash
 Copy code
 npm test
-This will execute the tests and display the results in the terminal.
-
-**Self presentation**:
-(https://drive.google.com/file/d/1UMDOaXdSdWo7mW9BagmJMKOvC5Nxgp5F/view)
-**A Capstone project presentation**:
-(https://drive.google.com/file/d/1UPtL_VAMHxRM9r-qSM4IJ1TD8MMIzu3a/view)
-
-
 Contact
-Feel free to reach out to me for collaboration or if you'd like more information about my work:
-
 - **Email**: imaghalashvili@gmail.com
 - **LinkedIn**:(https://www.linkedin.com/in/irmamaghalashvili/)
 - **GitLab**: (https://gitlab.com/irmamaghalashvili)
