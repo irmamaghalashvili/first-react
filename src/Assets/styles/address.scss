@@ -1,0 +1,45 @@
+.contact {
+	padding: 20px;
+	margin: 10px;
+	border-radius: 5px;
+	h2 {
+		font-size: 1.5rem;
+		margin-bottom: 15px;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	a {
+		text-decoration: none;
+		color: $color_1;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		margin-left: 15px;
+		align-items: flex-start;
+	}
+}
+.contact-li {
+	margin: 15px 0;
+	font-size: 1.2rem;
+	display: flex;
+	align-items: flex-start;
+	.contactLink {
+		&:hover {
+			.number {
+				color: $color_2;
+				opacity: 1;
+			}
+		}
+	}
+}
+.iconColor {
+	font-size: 1.8rem;
+	color: $color_2;
+	padding-top: 8px;
+}
+.number {
+	opacity: 0.5;
+	transition: opacity 0.3s ease;
+}

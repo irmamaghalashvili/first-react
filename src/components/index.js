@@ -1,0 +1,9 @@
+export { default as SecondPage } from './SecondPage/SecondPage';
+export { default as Panel } from './Panel';
+export { default as Feedback } from "./Feedback";
+export { default as Portfolio } from "./Portfolio";
+export { default as Education } from "./Education";
+export { default as Address } from "./Address";
+export { default as Skills } from "./Skills";
+export { default as Experience } from "./Experience";
+export { default as Navigation } from "./Navigation";

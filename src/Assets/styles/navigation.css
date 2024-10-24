@@ -1,0 +1,37 @@
+.nav-li.collapsed {
+  position: absolute;
+  top: 20px;
+  left: 205px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  right: 50px;
+}
+
+.panel-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.panel-ul li {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+.panel-ul li svg {
+  margin-right: 5px;
+}
+
+.collapse-btn {
+  width: 40px;
+  position: fixed;
+  top: 0;
+  right: -40px;
+  font-size: 20px;
+  border: none;
+  background-color: #282c34;
+  color: #ffffff;
+  cursor: pointer;
+}/*# sourceMappingURL=navigation.css.map */

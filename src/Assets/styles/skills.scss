@@ -1,0 +1,110 @@
+.skills-container {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+}
+
+.skill-border {
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: $primaryColor;
+}
+
+.add-skill-button {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  background-color: $darkBackground;
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $buttonHoverColor;
+  }
+}
+
+.add-button {
+  background-color: $darkBackground;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+
+  &:hover {
+    background-color: $buttonHoverColor;
+  }
+}
+
+.skills-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+
+  input {
+    margin: 10px;
+    height: 30px;
+  }
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item {
+  margin-bottom: 10px;
+}
+
+.skill-line {
+  height: 30px;
+  background-color: $primaryColor;
+  margin-top: 5px;
+}
+
+.skill-name {
+  color: white;
+  padding: 3px;
+}
+
+.error-message {
+  color: $errorColor;
+  margin-top: 5px;
+}
+.skill {
+  height: 29px;
+  max-width: 960px;
+  margin: 5px;
+}
+.skill-scale {
+  height: 100px;
+  margin: 5px;
+  background-image: url("../images/scale.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.skill {
+  height: 29px;
+  max-width: 960px;
+  background-color: $primaryColor;
+  margin: 5px;
+
+  &.html, &.css {
+    width: 750px;
+  }
+
+  &.javascript {
+    width: 500px;
+  }
+
+  &.react {
+    width: 350px;
+  }
+}

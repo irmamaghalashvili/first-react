@@ -1,0 +1,32 @@
+$color_1: rgba(38, 193, 126, 1);
+$background-color_1: rgba(238, 238, 238, 1);
+
+.feedbacks {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.feedback-item {
+	p {
+		background-color: $background-color_1;
+	}
+}
+.reporter {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+.feedback-avatar {
+	width: 50px;
+	border-radius: 50%;
+	border: none;
+}
+.reporter-info {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.reporter-cite {
+	color: $color_1;
+	margin-top: 10px;
+}

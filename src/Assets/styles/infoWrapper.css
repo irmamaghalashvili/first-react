@@ -1,0 +1,40 @@
+.info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.eduxationDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.eduxationDiv span {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.hug {
+  width: 5px;
+  height: 100px;
+  background-color: rgb(38, 193, 126);
+}
+
+.eduDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+  margin: 5px;
+  background-color: rgb(238, 238, 238);
+}/*# sourceMappingURL=infoWrapper.css.map */

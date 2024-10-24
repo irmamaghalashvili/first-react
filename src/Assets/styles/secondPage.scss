@@ -1,0 +1,42 @@
+.container {
+  transition: margin-left 0.5s ease-in-out;
+  margin-left: 40px;
+
+  &.collapsed {
+    margin-left: -160px;
+  }
+}
+
+h2, h3 {
+  width: 100%;
+  height: 30px;
+  font-size: 25px;
+  color: $primaryColor;
+}
+
+.up-btn {
+  position: fixed;
+  bottom: 0px;
+  right: 50px;
+  z-index: 1;
+  border-radius: 5px;
+  border: none;
+  background: $darkBackground;
+  color: white;
+  width: 30px;
+  height: 30px;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+.about-me {
+  color: black;
+
+  a {
+    text-decoration: none;
+    color: $primaryColor;
+  }
+}

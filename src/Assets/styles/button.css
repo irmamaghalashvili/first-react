@@ -1,0 +1,13 @@
+.button {
+  position: absolute;
+  font-size: 20px;
+  border: none;
+  background-color: #282c34;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.button svg {
+  margin-right: 5px;
+}/*# sourceMappingURL=button.css.map */

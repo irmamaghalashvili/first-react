@@ -1,0 +1,38 @@
+.experience {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.experienceDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 5px;
+}
+.experienceDiv span {
+  width: 150px;
+}
+
+.experDiv {
+  max-width: 850px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  align-content: space-around;
+  padding: 5px;
+  margin: 5px;
+}
+.experDiv h5 {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.expSpan {
+  font-weight: bolder;
+}
+
+.divider {
+  width: 10px;
+  height: 5px;
+}/*# sourceMappingURL=experience.css.map */

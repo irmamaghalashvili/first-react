@@ -1,0 +1,44 @@
+.contact {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 15px;
+  align-items: flex-start;
+}
+
+.contact-li {
+  margin: 15px 0;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+}
+.contact-li .contactLink:hover .number {
+  color: rgb(38, 193, 126);
+  opacity: 1;
+}
+
+.iconColor {
+  font-size: 1.8rem;
+  color: rgb(38, 193, 126);
+  padding-top: 8px;
+}
+
+.number {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}/*# sourceMappingURL=address.css.map */

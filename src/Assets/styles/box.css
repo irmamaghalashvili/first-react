@@ -1,0 +1,16 @@
+.box-content {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 2px;
+}
+.btn svg {
+  margin-right: 5px;
+}/*# sourceMappingURL=box.css.map */

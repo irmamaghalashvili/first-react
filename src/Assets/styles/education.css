@@ -1,0 +1,42 @@
+.education {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.educationSpan h5 {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.eduxationDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 5px;
+}
+.eduxationDiv span {
+  width: 150px;
+}
+
+.divider {
+  width: 10px;
+  height: 5px;
+}
+
+.education-loading, .education-error {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.loading-icon {
+  color: blue;
+}/*# sourceMappingURL=education.css.map */

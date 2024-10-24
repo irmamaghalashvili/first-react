@@ -1,0 +1,111 @@
+.skills-container {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+}
+
+.skill-border {
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: rgb(38, 193, 126);
+}
+
+.add-skill-button {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.add-skill-button:hover {
+  background-color: rgb(38, 193, 126);
+}
+
+.add-button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+.add-button:hover {
+  background-color: rgb(38, 193, 126);
+}
+
+.skills-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.skills-form input {
+  margin: 10px;
+  height: 30px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-item {
+  margin-bottom: 10px;
+}
+
+.skill-line {
+  height: 30px;
+  background-color: rgb(38, 193, 126);
+}
+
+.skill-name {
+  color: white;
+  padding: 3px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.skill-scale {
+  height: 100px;
+  margin: 5px;
+  background-image: url("../images/scale.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.skill {
+  color: white;
+  height: 30px;
+  font-size: 14px;
+  max-width: 960px;
+  background-color: rgba(38, 193, 126, 1);
+  margin-top: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 3px;
+}
+
+  .html {
+    max-width: 80%;
+  }
+  .css {
+    max-width: 100%;
+  }
+
+  .javascript {
+    max-width: 50%;
+  }
+
+  .react {
+    max-width: 40%;
+  }

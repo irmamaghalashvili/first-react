@@ -1,0 +1,15 @@
+
+
+.button {
+	position: absolute;
+	font-size: 20px;
+	border: none;
+	background-color: $background-color_1;
+	color: $color_1;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	svg {
+		margin-right: 5px;
+	}
+}

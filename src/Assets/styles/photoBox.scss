@@ -1,0 +1,51 @@
+
+.profile-picture {
+  background: url('../images/Profile.jpeg');
+  background-size: cover;
+  border: 1px;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+h1, h2, h5, p {
+  margin: 15px;
+}
+
+.profile-picture h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.photo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: $main-font-size-h1;
+  margin: 0;
+}
+
+h2 {
+  font-size: $main-font-size-h2;
+  margin: 5px 0;
+}
+
+p {
+  font-size: $main-font-size-p;
+  margin: 10px 0;
+}
