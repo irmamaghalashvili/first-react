@@ -35,7 +35,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://your-repo-url.git
+git clone (https://github.com/irmamaghalashvili/first-react)
 Navigate to the project directory:
 
 bash
