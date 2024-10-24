@@ -1,29 +1,7 @@
 My Portfolio
 Welcome to my personal portfolio website! This project highlights my skills, experience, and projects in front-end development.
-
 About
 This portfolio showcases the projects I’ve worked on as a front-end developer, along with information about my skills, experience, and how to get in touch with me. The website is built using React, Redux, TypeScript, and SCSS to ensure scalability, maintainability, and modern design.
-
-Features
-Interactive and responsive design
-Dynamic project showcase with detailed descriptions
-Smooth navigation using React Router
-Centralized state management with Redux
-Component-based styling using SCSS
-Unit tests written for each page using testing libraries
-Clean and structured code using TypeScript
-Easy to update with new projects and information
-Technologies Used
-React: JavaScript library for building user interfaces.
-Redux: State management library for handling application-wide state.
-TypeScript: A typed superset of JavaScript that improves code quality.
-SCSS: Syntactically Awesome Stylesheets for enhanced CSS.
-React Router: For handling navigation and routing between pages.
-Jest or React Testing Library: For writing and running unit tests.
-Node.js: JavaScript runtime environment.
-npm: Node package manager used to install dependencies.
-Getting Started
-To run this project locally, follow the instructions below.
 
 Prerequisites
 Ensure you have the following tools installed:
